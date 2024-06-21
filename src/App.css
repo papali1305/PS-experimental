@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.header-title h1 {
+  margin: 0;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-nav li {
+  margin-left: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.app-main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-message {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.parking-lot {
+  width: 500px;
+}
+
+.parking-lot img {
+  width: 100%;
+  height: auto;
+}
